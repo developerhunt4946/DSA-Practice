@@ -2,6 +2,7 @@
 // Input -- "hello"
 // Output -- "olleh"
 
+// Using Loop
 function reversedString(str) {
   let reversed = "";
 
