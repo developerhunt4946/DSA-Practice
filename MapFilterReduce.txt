@@ -1,0 +1,31 @@
+MAP --> Har element to ko transform krna.
+-Jab hume array k har element ko transform ya modify krna hota hai to map use hota hai.
+-Ye new array return krta hai original array chahe nhi hota hai 
+
+example- 
+let num = [1,2,3,4]
+let double = num.map(num => num * 2);
+console.log(double); ans->[2,4,6,8]
+
+
+
+FILTER --> Condition k basis pe element nikalna ya dhoondna
+-Jab hume kuch element chahiye jo kisi specific condition ko statisfy krte hai to hum filter ka use krte hai
+-Ye bhi new array return krta hai lekin iski length kam ho skti hai.
+
+example-
+let num = [1,2,3,4,5,6];
+let even = num.filter(num => num % 2 === 0);
+consle.log(even); ans -> [2,4,6]
+
+
+
+REDUCE --> Poore array ko ek value me convirt krna
+-Jab hume array se keval ek specific value nikalni hoto hum reduce ka use krte hai (sum ,max, object, count etc.)
+
+example-
+let nums = [1,2,3,4,5];
+let sum = num.reduce((acc,curr)=>{
+    return acc + curr
+},0);
+consle.log(sum);  an-> 15

@@ -1,0 +1,29 @@
+JavaScript me function likhne k 2 common tareeke hote hai, Or dono ka kaam function banan hi hota hai, lekijn behavior aor usage me difference hota hai.
+
+
+FUNCTION DECLARATION 
+-Jub hum dunction ko directly function keyword ks sath nam dekr declare krte hai, is function ko function declaration khte hai.
+-Ye hoisting k support krta hai, matlab function ko define krna se phle bhi call kr skte hai. Aisa isliye hota hai kuki JS execution se phle  function declaration memory me chli jati hai.
+
+example -
+ sayHello();
+
+ function sayHello(){
+    console.log("Hello Ayush");
+ };
+
+
+
+
+FUNCTION EXPRESSION 
+Jab function ko kisi variable me assign kiya jata hai to use function expressions khte hai.
+Ye hoist ni hota hai (fully), islie ise define krne se phle call ni kr skte.
+
+example-
+
+cosnt sayHello = () => {
+    consle.log("Hello Ayush");
+}
+
+sayHello();
+
